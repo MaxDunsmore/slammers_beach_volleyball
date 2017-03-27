@@ -4,14 +4,16 @@
 	width: 950px;
 	margin-right: auto;
 	margin-left: auto;
-	font-family: convergence;
+	font-family: syncopate;
 	font-style: normal;
-	font-weight: 800;
+	font-weight: 400;
 	text-align: center;
-	font-size: xx-large;
-	color: #000000;
-	border-radius: 10px;
+	font-size: 36px;
+	color: #6898CC;
+	border-radius: 00px;
 	border-collapse: collapse;
 	border-spacing: 0px 0px;
-	margin-top: 15px;
+	margin-top: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
