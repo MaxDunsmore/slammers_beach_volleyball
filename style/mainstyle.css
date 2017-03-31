@@ -31,3 +31,10 @@ contactUs {
 	margin-right: auto;
 	margin-left: auto;
 }
+.title {
+	font-family: amethysta;
+	font-style: normal;
+	font-weight: 400;
+}
+.main_paragraph #p2 {
+}
