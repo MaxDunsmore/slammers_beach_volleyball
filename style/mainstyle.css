@@ -22,7 +22,7 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #000000;
-	margin-top: px;
+	text-align: center;
 }
 
 contactUs {
@@ -53,10 +53,6 @@ contactUs {
 	clear: none;
 	float: right;
 }
-#p2 p img {
-	text-align: center;
-	margin-left: 24px;
-}
 #scrollbar_terms_and_conditions {
 	text-align: justify;
 }
@@ -65,4 +61,14 @@ contactUs {
 #terms_conditions {
 	font-size: large;
 	margin-top: 10px;
+}
+#p2 p img {
+	margin-left: 25px;
+}
+#signup_background {
+	margin-top: -10px;
+	padding-top: 25px;
+}
+#signup_background form {
+	margin-bottom: 0px;
 }
