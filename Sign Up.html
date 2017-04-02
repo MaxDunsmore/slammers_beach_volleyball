@@ -45,6 +45,130 @@ body,td,th {
 	font-style: normal;
 	font-weight: 400;
 }
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+}
+
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #5fcf80;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width : 558px ){
+
+  form {
+    max-width: 480px;
+  }
+
+}
+#scrollbar_terms_and_conditions {
+width: 350px;
+height: 150px; 
+margin-left: auto;
+margin-right: auto
+overflow: scroll;
+}
 #Footer {
 	height: auto;
 	width: 950px;
@@ -56,6 +180,13 @@ body,td,th {
 	font-style: normal;
 	font-weight: 400;
 	background-color: #000000;
+	margin-right: auto;
+	margin-left: auto;
+}
+.Sighnup_background {
+	background-color: #6898CC;
+	height: auto;
+	width: 950px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -92,7 +223,45 @@ function MM_swapImage() { //v3.0
 <div class="container">Sign Up</div>
 <div class="navbar"><a href="Index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Home','','Images/navBar/nvaBarOver_02.gif',1)"><img src="Images/navBar/navBarMain_02.gif" alt="" width="135" height="50" id="Home"></a><a href="aboutUs.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Sign Up','','Images/navBar/nvaBarOver_03.gif',1)"><img src="Images/navBar/navBarMain_03.gif" alt="" width="135" height="49" id="Sign Up"></a><a href="Sign Up.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Sighn Up','','Images/navBar/nvaBarOver_04.gif',1)"><img src="Images/navBar/navBarMain_04.gif" alt="" width="135" height="50" id="Sighn Up"></a><a href="Events.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Events','','Images/navBar/nvaBarOver_05.gif',1)"><img src="Images/navBar/navBarMain_05.gif" alt="" width="135" height="50" id="Events"></a><a href="Facilities.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Facilities','','Images/navBar/nvaBarOver_06.gif',1)"><img src="Images/navBar/navBarMain_06.gif" alt="" width="135" height="49" id="Facilities"></a><a href="Results.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Results','','Images/navBar/nvaBarOver_07.gif',1)"><img src="Images/navBar/navBarMain_07.gif" alt="" width="135" height="49" id="Results"></a><a href="Contact Us.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Contact Us','','Images/navBar/nvaBarOver_08.png',1)"><img src="Images/navBar/navBarMain_08.png" alt="" width="138" height="50" id="Contact Us"></a></div>
 <div style="clear:both;height:0px;width:100%"></div>
+
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="http://fonts.googleapis.com/css?family=Nunito:400,300" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+    <form action="index.html" method="post">
+      <h1>Sign Up Form</h1>
+      <fieldset>          
+        <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">          
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email">
+          <label for="password">Phone Number:</label>
+          <input type="password" id="password" name="user_password">
+          <label>Competiton Day:</label>
+          <input type="radio" id="Monday - Afternoon" value="Monday - Afternoon" name="play_time">
+          <label for="under_3" class="light">Monday - Afternoon </label>
+          <input type="radio" id="Monday - Evening" value="Monday - Evening" name="play_time">
+          <label for="over_3" class="light">Monday - Evening</label>
+          <br>
+          <input type="radio" id="Sunday - Afternoon" value="Sunday - Afternoon" name="play_time">
+          <label for="over_5" class="light">Sunday - Afternoon</label>
+          <input type="radio" id="Sunday - Evening" value="Sunday - Evening" name="play_time">
+          <label for="over_6" class="light">Sunday - Evening</label>
+          <label id="terms_conditions">Slammers Beach Volleyball terms and conditions:</label>
+        <input type="radio" id="terms_conditions" value="terms_conditions" name="terms_conditions"
+          <label for="over_6" class="light">I agree to are Terms and conditions(located below)</label>
+          <div id="scrollbar_terms_and_conditions">Participants in Slammers Beach Volleyball play at their own risk. Anyone playing is responsible for their own safety and should only play if they are capable. Check with your doctor before you begin. Game fees must be paid prior to the start of the game. Games may be cancelled by players up to 4 hours before hand to get a refund. Without 4 hours' notice, participants will forfeit the game and be charged 50% of the game fee. </div>
+        </fieldset>
+
+        <button type="submit">Sign Up</button>
+</form>
+      
+</body>
+
 <footer id="footer">© 2017 Slammers Beach volleyball</footer>
 
-</body>
-</html>
