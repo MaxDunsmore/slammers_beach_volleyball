@@ -71,4 +71,31 @@ contactUs {
 }
 #signup_background form {
 	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 0px;
+}
+.main_paragraph #p1 {
+	float: none;
+	margin-top: 0px;
+}
+form fieldset #message {
+	width: 400px;
+	height: 150px;
+}
+#signup_background form {
+	height: 750px;
+}
+#signup_background form #Contact_details_title {
+	font-family: nunito;
+	font-style: normal;
+	font-weight: 500;
+	font-size: xx-large;
+}
+
+#signup_background form #Contact_details {
+	text-align: left;
+	margin-left: 100px;
+	font-family: nunito;
+	font-style: normal;
+	font-weight: 300;
 }
